@@ -1,0 +1,13 @@
+h1 {
+    width:500px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+}
+.centree {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* it center the item horizontally */
+}

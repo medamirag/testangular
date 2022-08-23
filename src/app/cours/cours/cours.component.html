@@ -1,0 +1,19 @@
+
+<div class="card mx-auto" style="width:400px">
+    <div class="bg-light card-body ">
+      <h4 class="card-title d-flex justify-content-center">{{cours.cours}}</h4>
+      <div *ngIf="idc>-1">
+        <p class="card-text">{{cours.description}}</p>
+      </div>
+      <div *ngIf="idc===-1">
+        <p class="card-text">{{cours.briefdesc}}</p>
+      </div>
+      <p class="card-text">{{cours.briefdesc}}</p>
+     <div class="text-center">
+      <div *ngIf="idc==-1">
+      <a routerLink="/cours/{{cours.id}}" class="btn btn-danger">Lire la suite...</a>
+    </div>
+
+     </div>
+    </div>
+  </div>
